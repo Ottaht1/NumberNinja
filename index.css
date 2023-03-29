@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBsYWluJTIwYmFja2dyb3VuZHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+
+.form{
+   background-color:wheat ;
+   padding: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0, .3);
+   border-radius: 20px;
+   margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-align: center;
+    color: indigo;
+  }
+  
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px #ccc;
+    color: #333;
+}
+
+
+.input::placeholder{
+    color: #333;
+    font-family: cursive; 
+}
+
+
+
+.btn{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    display:block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0, .3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+
+.score{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    margin: 10px 0;
+}
+ 
+
