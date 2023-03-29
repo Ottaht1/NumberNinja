@@ -11,70 +11,61 @@ body {
   overflow: hidden;
 }
 
-
-
-.form{
-   background-color:wheat ;
-   padding: 10px;
-   box-shadow: 0 4px 8px rgba(0,0,0, .3);
-   border-radius: 20px;
-   margin: 10px;
+.form {
+  background-color: wheat;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  margin: 10px;
 }
 
 h1 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 50px;
-    text-align: center;
-    color: indigo;
-  }
-  
-
-.input{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 30px;
-    text-align: center;
-    padding: 10px;
-    border: solid 4px #ccc;
-    color: #333;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 50px;
+  text-align: center;
+  color: indigo;
 }
 
-
-.input::placeholder{
-    color: #333;
-    font-family: cursive; 
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px #ccc;
+  color: #333;
 }
 
-
-
-.btn{
-    background-color: #333;
-    color: #fff;
-    border: none;
-    display:block;
-    width: 100%;
-    padding: 10px;
-    font-size: 20px;
-    font-family: cursive;
-    margin: 10px 0;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0, .3);
-    cursor: pointer;
+.input::placeholder {
+  color: #333;
+  font-family: cursive;
 }
 
-.btn:hover{
-    background-color: #000;
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 10px 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
-
-.score{
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    font-family: cursive;
-    margin: 10px 0;
+.btn:hover {
+  background-color: #000;
 }
- 
 
+.score {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: cursive;
+  margin: 10px 0;
+}
