@@ -6,7 +6,7 @@ Number Ninja is a simple web application that generates random arithmetic questi
 This app is created with HTML, CSS, and JavaScript. The user's score is stored in local storage.
 
     
-##How to Use
+## How to Use
 
 Open the app in a web browser.
 The app will generate two random numbers between 1 and 10 (inclusive).
